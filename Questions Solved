@@ -1,0 +1,36 @@
+Here are some business questions you can consider for your SQL and Power BI project, leveraging the dataset you described:
+
+Patient Demographics and Insights
+What is the average age of patients diagnosed with OCD?
+Is there a significant gender distribution among OCD diagnoses?
+What is the correlation between marital status and OCD diagnosis frequency?
+How does the educational level of patients affect the duration of symptoms before diagnosis?
+Family and Medical History
+What percentage of patients have a family history of OCD?
+How does a family history of OCD influence the Y-BOCS scores for obsessions and compulsions?
+What are the most common previous diagnoses among OCD patients?
+
+Symptom Duration and Diagnosis
+What is the average duration of symptoms before OCD diagnosis?
+How does the duration of symptoms relate to Y-BOCS scores?
+Are there patterns in the types of obsessions or compulsions based on the duration of symptoms?
+Mental Health and Comorbidities
+What percentage of OCD patients also have depression or anxiety diagnoses?
+How do depression and anxiety diagnoses impact Y-BOCS scores?
+Which medications are most commonly prescribed for OCD patients with comorbid depression or anxiety?
+
+Treatment and Medication Insights
+What are the most frequently prescribed medications for OCD patients?
+How do different medications correlate with Y-BOCS scores for obsessions and compulsions?
+Is there a difference in medication patterns for patients with high vs. low Y-BOCS scores?
+
+OCD-Specific Analyses
+Which obsession types are most common in the dataset?
+What are the most frequent combinations of obsession and compulsion types?
+How do different obsession and compulsion types affect Y-BOCS scores?
+Advanced Insights for Reporting
+What is the overall trend of OCD diagnoses over time (by year or month)?
+Are there geographic or ethnic trends in OCD diagnoses?
+What is the relationship between education level and the type of obsession or compulsion?
+How does the marital status of patients correlate with comorbid mental health conditions?
+These questions can guide data exploration and visualization while showcasing your SQL querying skills and Power BI storytelling abilities.
