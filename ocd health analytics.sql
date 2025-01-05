@@ -39,7 +39,6 @@ GROUP BY `EDUCATION LEVEL`;
 -- Graduate Degree	118
 
 /*Family and Medical History*/
-
 /*5.What percentage of patients have a family history of OCD?*/
 SELECT SUM(CASE WHEN `Family History of OCD` ='YES' THEN 1 ELSE 0  END ) AS 'FAMILY HISTORY-YES', Count(*) as 'TOTAL PATIENTS',
 ROUND(SUM(CASE WHEN `Family History of OCD` ='YES' THEN 1 ELSE 0  END )/COUNT(*) *100) AS 'PERCENTAGE'
@@ -47,7 +46,6 @@ FROM ocd_patient_dataset;
 -- 51 
 
 /*6.How does a family history of OCD influence the Y-BOCS scores for obsessions and compulsions?*/
-
 SELECT `Family History of OCD`, ROUND(AVG(`Y-BOCS Score (Obsessions)`)) AS 'AVG OBSESSIONS SCORE',
 ROUND(AVG(`Y-BOCS Score (Compulsions)`)) AS 'AVG COMPULSIONS SCORE'
 FROM ocd_patient_dataset
@@ -67,11 +65,9 @@ GROUP BY `PREVIOUS DIAGNOSES`;
 --    GAD	               298
 --   Panic Disorder	       313
 
-select * from ocd_patient_dataset;
 /*Symptom Duration and Diagnosis*/
 
 /*8.What is the average duration of symptoms before OCD diagnosis?*/
-
 SELECT ROUND(AVG(`Duration of Symptoms (months)`)) AS 'AVG_DURATION_BEFORE_DIAGNSES'
 FROM ocd_patient_dataset 
 WHERE `PREVIOUS DIAGNOSES`='NONE';
